@@ -1,2 +1,2 @@
 # n3-backend-projeto-pratico
-Primeiro projeto prática do curso de backend - {reprograma} | Turma: accenture
+Primeiro projeto prático do curso de backend - {reprograma} | Turma: accenture

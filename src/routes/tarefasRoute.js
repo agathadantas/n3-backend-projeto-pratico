@@ -1,6 +1,20 @@
-/*É a camada que exibe uma representação dos dados.
-É camada de interface com usuário (view).
-Também conhecida como cliente-side.
-Faz a exibição dos dados, utilizando-se de #HTML e/ou XML.
-É responsável por usar as informações modeladas para produzir 
-interfaces de apresentação conforme a necessidade.*/
+const express = require('express'); //chamar express
+const router = express.Router(); //chamar router again
+const controller = require("../controller/tarefasController.js") ;
+//chamar tarefacontroller na pasta dela
+
+router.get('/' , controller.get);
+router.get('/:id' , controller.getById);
+//router.get('/concluidos/filtrar' , controller.getConcluido); 
+//router enviar get / :id /concluidos/filtrar , controller. 
+
+
+module.exports = router; 
+//module para retornar para fora
+
+
+
+
+
+
+

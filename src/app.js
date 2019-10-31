@@ -1,22 +1,38 @@
-const express = require('express');
-const server = express ();
-const tarefas = require("./projeto.json") ;
+const express = require('express'); //declarando e chamando pacote express
+const server = express ();  
+//essa const server não é a mesma do server, não atrapalha usar o mesmo nome em outra página
 
-function PercorreArray () {
+const index = require("./routes/index.js") ; //estou chamando o arquivo index js para usar aqui
+const tarefas = require("./routes/tarefasRoute.js");
 
-   tarefas.id()  ;
-//percorrer o array e trazer id, retornar 
-//valor, e depois chamar função fora
+server.use(function(req, res, next){
 
-} 
-    
-server.get('/tarefas/:id', (req, res) =>{
-       
-    return req.params(tarefas);
+    res.header("Access-Control-Allow-Origin", "*")
+    res.header(
+            "Access-Control-Allow-Headers",
+            "Origin, X-Requested-With, Content-Type, Acept"
+
+    )
+
+        next()
+
 });
 
-  
+server.use("/", index);
+server.use("/tarefas", tarefas);
 
-server.listen(400);
+module.exports = server;
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
 
 

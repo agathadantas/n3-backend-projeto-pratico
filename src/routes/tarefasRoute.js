@@ -5,8 +5,8 @@ const controller = require("../controller/tarefasController.js") ;
 
 router.get('/' , controller.get);
 router.get('/:id' , controller.getById);
-//router.get('/concluidos/filtrar' , controller.getConcluido); 
-//router enviar get / :id /concluidos/filtrar , controller. 
+router.get('/concluido/filtrar' , controller.getConcluido); 
+//chamando pela rota, os dados 
 
 
 module.exports = router; 

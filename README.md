@@ -1,4 +1,4 @@
-##  n3-backend-projeto-pratico
+##  n3-backend-projeto-pratico (API)
 Primeiro projeto prático do curso de backend - {reprograma} | Turma: accenture
 
 ### Ferramentas utilizadas para o desenvolvimento:
@@ -10,3 +10,10 @@ Primeiro projeto prático do curso de backend - {reprograma} | Turma: accenture
 **IDE:** Visual Studio Code
 
 **Sistema Operacional:** Windows 10 - 64 bits
+
+### Conceitos trabalhados:
+
+- [x] MVC
+- [x] Json
+- [x] API
+- [x] GitHub

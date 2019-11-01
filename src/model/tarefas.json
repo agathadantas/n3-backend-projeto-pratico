@@ -3,32 +3,40 @@
     {
         "id":1, 
         "dataInclusao":"12/08/2019",
+        "dataConcluido":"",
         "concluido": "false",
-        "descricao": "Tarefa 1 - Agora vai"
+        "descricao": "Tarefa 1 - Agora vai",
+        "nomeColaborador": "João"
 
     },
 
     {
         "id":2, 
         "dataInclusao":"13/04/2018",
+        "dataConcluido":"",
         "concluido": "false",
-        "descricao": "Tarefa 2 - Arrumando"
+        "descricao": "Tarefa 2 - Arrumando",
+        "nomeColaborador": "Isa"
 
     },
 
     {
         "id":3, 
         "dataInclusao":"24/10/2019",
+        "dataConcluido":"24/08/2019",
         "concluido": "true",
-        "descricao": "Tarefa 3 - Novo arquivo"
+        "descricao": "Tarefa 3 - Novo arquivo",
+        "nomeColaborador": "Ana"
 
     },
 
     {
         "id":4, 
         "dataInclusao":"24/10/2019",
+        "dataConcluido":"12/08/2019",
         "concluido": "true",
-        "descricao": "Tarefa 4 - Validando"
+        "descricao": "Tarefa 4 - Validando",
+        "nomeColaborador": "Paula"
 
     }
 

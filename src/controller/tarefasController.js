@@ -33,9 +33,17 @@ exports.getConcluido = (req, res) => {
         res.status(200).send(tarefaConcluidos);
 
 };
+exports.getNome = (req, res) => {
+    const nomeColaborador = req.params.nomeColaborador;
 
+    const retornaNome = tarefas.find (tarefa => tarefa.nomeColaborador == nomeColaborador);
 
+    res.status(200).send(retornaNome);
+//const nomeColab esta puxando dentro da array json o params :nomeColaborador
+//const retornaNome está trazendo o dado puxado pelo find dentro da array que está em tarefas
+//retornando a array com o valor achado
 
+};
 
 
 

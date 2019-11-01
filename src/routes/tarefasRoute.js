@@ -6,6 +6,7 @@ const controller = require("../controller/tarefasController.js") ;
 router.get('/' , controller.get);
 router.get('/:id' , controller.getById);
 router.get('/concluido/filtrar' , controller.getConcluido); 
+router.get('/:nomeColaborador/buscar' , controller.getNome);
 //chamando pela rota, os dados 
 
 

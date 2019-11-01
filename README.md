@@ -1,4 +1,4 @@
-##  n3-backend-projeto-pratico1 (API)
+##  n3-backend-projeto-pratico (API)
 Primeiro projeto prático do curso de backend - {reprograma} | Turma: accenture
 
 ### Ferramentas utilizadas para o desenvolvimento:

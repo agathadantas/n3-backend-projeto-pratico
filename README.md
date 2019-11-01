@@ -1,12 +1,12 @@
 ##  n3-backend-projeto-pratico
 Primeiro projeto prático do curso de backend - {reprograma} | Turma: accenture
 
-### Ferramentas usadas para o desenvolvimento:
-**Compilador:**
+### Ferramentas utilizadas para o desenvolvimento:
 
+**Linguagem:** JavaScript
 
-**Biblioteca:**
+**Framework:** Express.js
 
-**IDE:**
+**IDE:** Visual Studio Code
 
-**Sistema Operacional:**
+**Sistema Operacional:** Windows 10 - 64 bits

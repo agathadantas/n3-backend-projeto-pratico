@@ -30,4 +30,4 @@ _Retornar somente a tarefa encontrada por ID_
 
 **_Extras:_**
 - [x] Mostrar somente itens concluidos
-- [ ] Buscar tarefas somente de um determinado colaborador
+- [x] Buscar tarefas somente de um determinado colaborador
